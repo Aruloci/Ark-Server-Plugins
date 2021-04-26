@@ -858,7 +858,7 @@ void KillDino(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UW
 void ClientChat(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UWorld*)
 {
 	FString msg = rcon_packet->Body;
-
+	//TEST
 	TArray<FString> parsed;
 	msg.ParseIntoArray(parsed, L"'", true);
 
